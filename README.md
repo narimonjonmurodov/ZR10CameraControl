@@ -1,6 +1,6 @@
 <div align="center">
   <!-- Replace 'your_logo.png' with the actual link or path to your drone logo -->
-  <img src="your_logo.png" alt="ZR10 Tactical Gimbal Control Logo" width="150">
+  <img src="./assets/mnm.png" alt="MNM Logo" width="150">
   
   # ZR10 Tactical Gimbal Control
 </div>
