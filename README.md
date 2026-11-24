@@ -18,7 +18,7 @@ This application solves that problem. It provides an independent, tactical UI to
 * **Standalone Operation:** Fully compiled and secured binaries. No dependencies or coding environment required.
 
 ### How to Use
-1. **Download:** Go to the Releases section and download the standalone executable for your system:
+1. **Download:** Go to the [**Releases**](../../releases) section and download the standalone executable for your system:
    * **Windows:** Download the `.exe` file.
    * **Linux (Ubuntu):** Download the `.deb` file and install it.
 2. **Connect:** Ensure your computer is connected to the SIYI Air Unit/Ground Station network (IP: `192.168.144.X`).
