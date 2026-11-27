@@ -1,14 +1,27 @@
 <div align="center">
-  <!-- Replace 'your_logo.png' with the actual link or path to your drone logo -->
-  <img src="./assets/mnm.png" alt="MNM Logo" width="150">
-  
-  # ZR10 Tactical Gimbal Control
+
+# ZR10 Tactical Gimbal Control
+
+<p>
+  <img src="./assets/logo.png" alt="Ground Control Station Logo" width="140">
+</p>
+
+*Engineered by Murodov Narimonjon Muxtorovich*
+
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Ubuntu%20Linux-0f141c?style=for-the-badge)
+![Domain](https://img.shields.io/badge/Domain-Avionics%20%26%20UAV%20Propulsion-1f6feb?style=for-the-badge)
+![Status](https://img.shields.io/badge/Release-Production%20Desktop%20Application-238636?style=for-the-badge)
+
 </div>
+
+---
 
 ### The Problem It Solves
 Controlling the SIYI ZR10 camera during long-range flight often leads to a major issue: standard control commands can block the network, causing the live H.265 RTSP video stream to stutter, freeze, or drop. 
 
 This application solves that problem. It provides an independent, tactical UI to control the gimbal's precise angles, zoom, and focus using asynchronous UDP packets. It runs smoothly alongside your primary Ground Control Station (GCS) and guarantees **zero interruption** to your critical video stream and telemetry datalink.
+
+---
 
 ### Key Features
 * **Zero-Latency Video:** Asynchronous network architecture ensures your video stream never drops or freezes while moving the gimbal.
@@ -16,6 +29,8 @@ This application solves that problem. It provides an independent, tactical UI to
 * **Optical Zoom & Focus:** Seamless 1x to 10x optical zoom slider with a one-tap "Auto Focus to Center" capability.
 * **Live Syncing:** Instantly fetches and displays the camera's current attitude and zoom state upon launch or refresh.
 * **Standalone Operation:** Fully compiled and secured binaries. No dependencies or coding environment required.
+
+---
 
 ### How to Use
 1. **Download:** Go to the [**Releases**](../../releases) section and download the standalone executable for your system:
